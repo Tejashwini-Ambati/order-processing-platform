@@ -1,13 +1,13 @@
 replicaCount: 1
 
 image:
-  repository: saikumarnerella90/user-service
+  repository: kumkammonteju/user-service
   tag: latest  
 
 imagePullPolicy: Always
 
 service:
-  type: ClusterIP
+  type: LoadBalancer
   port: 5001
 
 resources: {}
