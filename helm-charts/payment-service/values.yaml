@@ -1,13 +1,13 @@
 replicaCount: 1
 
 image:
-  repository: saikumarnerella90/payment-service
+  repository: kumkammonteju/payment-service
   tag: latest  
 
 imagePullPolicy: Always
 
 service:
-  type: ClusterIP
+  type: LoadBalancer
   port: 5002
 
 resources: {}
