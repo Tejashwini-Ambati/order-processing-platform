@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: saikumarnerella90/auth-service
+  repository: kumkammonteju/auth-service
   tag: latest  
 
 imagePullPolicy: Always
