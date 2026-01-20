@@ -14,7 +14,7 @@ pipeline {
 
     stage('Init Kube Config') {
       steps {
-        withCredentials([file(credentialsId: 'KUBECONFIG_FILE', variable: 'KUBECONFIG_FILE')]) {
+        withCredentials([file(credentialsId: 'kubecreds', variable: 'KUBECONFIG_FILE')]) {
           sh """
             cp $KUBECONFIG_FILE ${KUBECONFIG_PATH}
             export KUBECONFIG=${KUBECONFIG_PATH}
