@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Checkout Code') {
       steps {
-        git credentialsId: 'Gitcreds', url: 'https://github.com/SaiKumarNerella9030/order-processing-platform.git', branch: 'main'
+        git credentialsId: 'Gitcreds', url: 'https://github.com/Tejashwini-Ambati/order-processing-platform.git', branch: 'main'
       }
     }
 
