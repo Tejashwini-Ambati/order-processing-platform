@@ -3,7 +3,7 @@ alertmanager:
 
 server:
   service:
-    type: ClusterIP
+    type: LoadBalancer
   persistentVolume:
     enabled: false
 
