@@ -1,13 +1,13 @@
 replicaCount: 1
 
 image:
-  repository: saikumarnerella90/order-service
+  repository: kumkammonteju/order-service
   tag: latest  
 
 imagePullPolicy: Always
 
 service:
-  type: ClusterIP
+  type: LoadBalancer
   port: 5003
 
 resources: {}
