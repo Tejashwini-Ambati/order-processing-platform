@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: saikumarnerella90/frontend-service
+  repository: kumkammonteju/frontend-service
   tag: latest  
 
 imagePullPolicy: Always
